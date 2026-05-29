@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Punto — Setup</title>
+  <link rel="stylesheet" href="onboarding.css" />
+</head>
+<body>
+  <div class="wizard">
+    <header>
+      <div class="brand">Punto</div>
+      <div class="progress">
+        <div class="progress-bar"><div id="progressFill"></div></div>
+        <div class="progress-text"><span id="progressText">1 / 1</span></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section-label" id="sectionLabel"></div>
+      <h1 id="prompt"></h1>
+      <p class="help" id="help"></p>
+      <div id="inputContainer" class="input-container"></div>
+      <p class="error" id="error"></p>
+    </main>
+
+    <footer>
+      <button id="backBtn">← Back</button>
+      <div class="spacer"></div>
+      <button id="skipBtn" class="ghost">Skip</button>
+      <button id="nextBtn" class="primary">Next →</button>
+    </footer>
+  </div>
+
+  <div id="doneScreen" class="done hidden">
+    <h1>✓ All set</h1>
+    <p>Your answers are saved. Open any job application and click the Punto icon → <b>Autofill This Page</b>.</p>
+    <p class="small">You can edit any answer later from the popup.</p>
+    <button class="primary" id="closeBtn">Close this tab</button>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="onboarding.js"></script>
+</body>
+</html>

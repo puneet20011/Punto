@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Punto</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>Punto</h1>
+    <span id="completeness" class="completeness"></span>
+  </header>
+
+  <button id="fillBtn" class="primary big">Autofill This Page</button>
+
+  <div id="status" class="status"></div>
+
+  <div class="links">
+    <button id="editBtn" class="link">Edit my answers</button>
+    <button id="resumeBtn" class="link">Resume setup</button>
+    <button id="diagnoseBtn" class="link">Diagnose this page</button>
+  </div>
+
+  <div class="footer-row">
+    <button id="exportBtn" class="small">Export</button>
+    <button id="importBtn" class="small">Import</button>
+    <input type="file" id="importFile" accept="application/json" hidden />
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
