@@ -37,6 +37,17 @@ Punto is not on the Chrome Web Store yet. To install:
 5. Select the cloned `Punto` folder
 6. A new tab opens with the onboarding wizard — walk through the questions
 
+### Updating
+
+Since Punto is loaded unpacked, Chrome won't update it automatically:
+
+1. `git pull` inside your `Punto` folder
+2. Open `chrome://extensions` and click the reload icon on the Punto card
+3. Reload any open application tabs so the new content script is injected
+
+Your profile lives in `chrome.storage.local`, so it survives updates. If new
+wizard questions were added, use **Resume setup** in the popup to answer them.
+
 ## Usage
 
 ### Setting up your profile
