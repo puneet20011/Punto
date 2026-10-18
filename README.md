@@ -1,6 +1,6 @@
 # Punto
 
-A Chrome extension that autofills job applications — including Workday's custom ARIA widgets, radio groups, checkboxes, and 3-input date pickers — using a profile you build through a guided wizard.
+A Chrome extension that autofills job applications — including Workday's custom ARIA widgets, radio groups, checkboxes, and 3-input date pickers — using a profile you build through a guided wizard :)
 
 ## Why
 
